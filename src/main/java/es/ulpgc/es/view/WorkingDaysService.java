@@ -18,7 +18,7 @@ public class WorkingDaysService {
 
     public void start() {
         app = Javalin.create()
-                .get("/working-days", ctx -> execute("working.days", ctx.req(), ctx.res()))
+                .get("/working-days", ctx -> execute("working-days", ctx.req(), ctx.res()))
                 .get("/working-date", ctx -> execute("working-date", ctx.req(), ctx.res()))
                 .start(port);
     }
