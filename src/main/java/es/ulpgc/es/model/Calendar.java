@@ -10,7 +10,7 @@ import static java.time.DayOfWeek.*;
 public class Calendar {
     public Iterable<LocalDate> from (LocalDate date) { return  () -> iteratorFrom(date);}
 
-    private Iterator<LocalDate> iteratorFrom(LocalDate date) {
+    public Iterator<LocalDate> iteratorFrom(LocalDate date) {
         return new Iterator<>() {
             LocalDate current = date;
 

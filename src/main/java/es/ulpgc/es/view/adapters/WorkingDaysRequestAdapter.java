@@ -1,5 +1,6 @@
 package es.ulpgc.es.view.adapters;
 
+import es.ulpgc.es.control.commands.WorkingDaysCommand;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
